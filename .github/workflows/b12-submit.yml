@@ -1,0 +1,24 @@
+name: B12 application submission
+
+on:
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Submit to B12
+        env:
+          B12_NAME: ${{ secrets.B12_NAME }}
+          B12_EMAIL: ${{ secrets.B12_EMAIL }}
+          B12_RESUME_LINK: ${{ secrets.B12_RESUME_LINK }}
+        run: python submit.py
