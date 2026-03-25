@@ -27,7 +27,9 @@ I'm passionate about what I do and I think a lot and invest in the future workin
 
 As in the web submission, I leave here my CV: https://www.youtube.com/watch?v=v7ScGV5128A
 
-Thank you very much, and thank you for your time 
+Thank you very much, and thank you for your time
+
 Best,
+
 Vladislav
 
