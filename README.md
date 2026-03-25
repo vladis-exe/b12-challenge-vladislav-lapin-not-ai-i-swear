@@ -15,9 +15,9 @@ cp .env.example .env
 python submit.py
 ```
 
-# Proof I’m not an AI (B12 challenge edition)
+# Proof I’m not an AI
 
-Hi B12 team 👋
+Hi B12 team,
 
 I’m Vladislav Lapin — real human, 4.5 years shipping and designing backend Python/Django/FastAPI services for a consultancy, 
 currently and for the last two years co-founding and participating on 2 Startup projects, as a "Forward Deployed Engineer" even before I knew these words. 
